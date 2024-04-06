@@ -48,7 +48,7 @@ function App() {
         <input type="text" placeholder="Enter city name" name="city" />
         <button className="search-btn">Search</button>
       </form>
-      {loading && <h2>Loading data...</h2>}
+      {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
         <div className="weather-conatiner">
           <WeatherCard
