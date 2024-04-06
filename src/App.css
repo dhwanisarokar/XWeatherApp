@@ -24,7 +24,7 @@ p {
   color: white;
 }
 
-.weather-conatiner {
+.weather-cards {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
@@ -32,7 +32,7 @@ p {
   gap: 25px;
 }
 
-.weather-cards {
+.weather-card {
   width: 200px;
   /* height: 100px; */
   background: white;
@@ -42,7 +42,7 @@ p {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
-.weather-cards p {
+.weather-card p {
   font-size: 1.28rem;
   margin: 10px;
   font-weight: 500;

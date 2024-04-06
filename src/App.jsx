@@ -50,7 +50,7 @@ function App() {
       </form>
       {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
-        <div className="weather-conatiner">
+        <div className="weather-cards">
           <WeatherCard
             title={"Temperture"}
             data={`${weatherData.current.temp_c}°C`}
